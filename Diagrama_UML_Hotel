@@ -22,8 +22,8 @@ classDiagram
        +int getNumero() const
        +string getTipo() const
        +bool estaOcupada() const
-       void ocupar()
-       void desocupar
+       +void ocupar()
+       +void desocupar
     }
 
     class Cliente {
